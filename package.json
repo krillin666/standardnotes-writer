@@ -1,5 +1,5 @@
 {
-  "name": "standardnotes-writer",
+  "name": "standardnotes-no-distract",
   "version": "0.1.1",
   "main": "dist/dist.css",
   "sn": {
@@ -7,6 +7,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/eenpadvinder/standardnotes-writer.git"
+    "url": "git://github.com/krillin666/standardnotes-writer.git"
   }
 }
