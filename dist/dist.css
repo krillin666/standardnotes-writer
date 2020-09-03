@@ -69,52 +69,6 @@
   display: none;
 }
 
-.CodeMirror, .CodeMirror-fullscreen, .gKsMQS, .gKsMQS p, .CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like  {
-  font-family: Charter, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 20px;
-  line-height: 26px;
-}
-
-.gKsMQS h1:not(.placeholder)::before, 
-.gKsMQS h2:not(.placeholder)::before, 
-.gKsMQS h3:not(.placeholder)::before, 
-.gKsMQS h4:not(.placeholder)::before, 
-.gKsMQS h5:not(.placeholder)::before, 
-.gKsMQS h6:not(.placeholder)::before {
-  display: none;
-} 
-
-.CodeMirror .cm-header-1, .gKsMQS h1, 
-.CodeMirror .cm-header-2, .gKsMQS h2,
-.CodeMirror .cm-header-3, .gKsMQS h3,
-.CodeMirror .cm-header-4, .gKsMQS h4,
-.CodeMirror .cm-header-5, .gKsMQS h5,
-.CodeMirror .cm-header-6  .gKsMQS h6 {
-  font-weight: bold;
-} 
-
-.CodeMirror .cm-link.cm-variable-2, .CodeMirror .cm-url.cm-variable-2,
-.CodeMirror .cm-link, 
-.CodeMirror .cm-string,
-.editor-preview-active a, 
-.editor-preview-active-side a,
-.gKsMQS a {
-  color: #1d69cc !important;
-  text-decoration: none;
-}
-
-.CodeMirror-lines, .ProseMirror {
-  padding: 40px 0;
-}
-
-.gKsMQS mark {
-  background: #6b6105;
-  color: inherit;
-}
-
-a.heading-name {
-  color: inherit !important;
-}
 
 .editor-toolbar,
 .editor-toolbar.fullscreen {
