@@ -1,63 +1,62 @@
+.mac-desktop #editor-column {
+  padding-top: 35px;
+}
 
-#tags-column {
+.mac-desktop #editor-column:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 38px;
+  -webkit-app-region: drag;
+}
+
+#editor-title-bar {
   display: none;
 }
 
-#notes-column {
-  flex-basis: 10px !important;
-}
-
-#notes-column:hover {
-  flex-basis: initial !important;
-}
-
-
-
-.info-sections>.section:last-child,
-.sk-panel-column.meta,
-.sk-panel-column.sk-segmented-buttons
-{
-  display: none;
-}
-
-.sn-component .sk-panel-section:last-child,
-.sn-component .sk-panel-section {
-  padding-bottom: 0;
-  margin-bottom: 0;
-}
-
-
-
-
-
-.sn-component .sk-panel-row {
-  justify-content: center;
-}
-
-#editor-pane-component-stack #main-content  {
-}
-
-#editor-pane-component-stack #component-stack-menu-bar {
-  display: none;
-}
-
-
-
-
-#editor-title-bar,
 #editor-menu-bar {
   display: none;
 }
 
-
-.editor-toolbar,
-.editor-toolbar.fullscreen {
-  height: 1px;
-  opacity: 0;
-  padding-top: 0;
+#editor-pane-component-stack {
+  display: none;
 }
 
-.editor-toolbar:hover {
-  height: 50px;
-  opacity: 1;
+#footer-bar {
+  opacity: 0.08;
+  transition: opacity 0.25s;
 }
+
+#footer-bar:hover {
+  opacity: 1.0;
+}
+
+.section.tags {
+  flex: none !important;
+  width: 0px !important;
+  transition: width 0.25s;
+}
+
+.section.tags:hover {
+  flex: initial;
+  width: 0px !important;
+  transition: width 0.25s;
+}
+
+.section.notes {
+  flex: none !important;
+  width: 0px !important;
+  transition: width 0.25s;
+  border: none !important;
+}
+
+.section.notes:hover {
+  flex: initial;
+  width: 0px !important;
+  transition: width 0.25s;
+}
+
+/*# sourceMappingURL=dist.css.map */
+
