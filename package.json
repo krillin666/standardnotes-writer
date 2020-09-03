@@ -1,9 +1,7 @@
 {
   "name": "standardnotes-no-distract",
   "version": "0.1.1",
-  "main": "dist/dist.css",
-  "sn": {
-    "main": "dist/dist.css"
+
   },
   "repository": {
     "type": "git",
